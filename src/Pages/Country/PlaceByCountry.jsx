@@ -18,7 +18,7 @@ const PlaceByCountry = () => {
             Select your Tourists Spot from a Country
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-4 container mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 container mx-auto">
           {places.map((place) => (
             <PlaceByCountryDetails
               place={place}

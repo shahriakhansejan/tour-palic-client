@@ -20,7 +20,7 @@ const Details = () => {
     }
     return (
         <div className='container min-h-screen mt-6 mx-auto'>
-            <div className='flex p-2 gap-2'>
+            <div className='flex flex-col lg:flex-row p-2 gap-2'>
             <div className='flex-1'>
             <img className='rounded bg-[#f1f1f1] p-3' src={photo} alt="" />
             </div>
@@ -37,7 +37,7 @@ const Details = () => {
 
 
 
-                <div className='flex justify-between'>
+                <div className='flex mt-6 justify-between'>
                 <Link to='/places'><button className='btn btn-info text-white'>Back to All spot</button></Link>
                 <button onClick={handleBack} className='btn'><FaArrowLeftLong/> Back</button>
                 </div>
